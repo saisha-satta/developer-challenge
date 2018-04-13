@@ -1,0 +1,42 @@
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #fff 0, #fff 100%);
+  background-image: -o-linear-gradient(top, #fff 0, #fff 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), to(#fff));
+  background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  background-repeat: repeat-x;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0px 0px 0px #fff, 0px 0px 0px #fff;
+  box-shadow: inset 0 0px 0 #fff, 0 0px 0px #fff;
+  height: 100px;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 0px;
+  border-color: #fff;
+  padding: 20px; }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff;
+    background-color: #fff;
+    text-align: center;
+    width: 100vw;
+    padding: 20px;
+    margin-left: -35px; }
+  .navbar-default .navbar-header .navbar-brand {
+    padding: 4px 15px; }
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #fff;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    background-image: none; }
+  .navbar-default .navbar-right:last-child {
+    margin-right: 0px;
+    margin-top: -15px; }
+  .navbar-default .navbar-right .btn-signin {
+    background-color: #03bb9e;
+    color: #fff;
+    padding: 10px 28px;
+    margin-left: 20px;
+    margin-top: 4px; }

@@ -1,10 +1,10 @@
+/* Nav styles - a bit ugly but working quickly */
 .navbar-default {
     background-image: -webkit-linear-gradient(top,#fff 0,#fff 100%);
     background-image: -o-linear-gradient(top,#fff 0,#fff 100%);
     background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#fff));
     background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#fff', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     background-repeat: repeat-x;
     border-radius: 0px;
     -webkit-box-shadow: inset 0px 0px 0px #fff, 0px 0px 0px #fff;
@@ -49,3 +49,39 @@
       }
     }
   }
+
+  /* hero section */
+  .jumbotron {
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../resources/hero-image.jpg');
+    margin-bottom: 0px;
+    &:before {
+      position: absolute;
+      content:" ";
+      top:0;
+      left:0;
+      width:100%;
+      height:800px;
+      display: block;
+      z-index:9;
+      background-color: rgba(12, 12, 12, 0.5);
+    }
+    h1, .h1 {
+      font-size: 37px;
+      color: #fff;
+      padding-top: 140px;
+      z-index: 999;
+      position: relative;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: 100;
+      color: #fff;
+      z-index: 999;
+      position: relative;
+    }
+  }
+
+  
